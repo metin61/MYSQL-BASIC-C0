@@ -83,6 +83,24 @@ id	name	age	nationality	club	value	wage
 236920	J. Kluivert 	18	Netherlands 	Ajax 	7000000	8000	
 
 -- Opdracht 5
+127.0.0.1/mod-mysql-basic-fifa2018/players/		http://localhost/phpmyadmin/tbl_sql.php?db=mod-mysql-basic-fifa2018&table=players
+ Weergave van records 0 - 10 (11 totaal, Query duurde 0,0017 seconden.)
+
+SELECT * FROM `players` WHERE nationality<>"Netherlands" AND club="Ajax"
+
+
+id	name	age	nationality	club	value	wage	
+172143	L. Sch ne 	31	Denmark 	Ajax 	75000000	15000	
+199568	K. Lamprou 	25	Greece 	Ajax 	46000000	9000	
+205966	A. Younes 	23	Germany 	Ajax 	115000000	15000	
+208670	H. Ziyech 	24	Morocco 	Ajax 	23000000	16000	
+216860	V. ?ern  	19	Czech Republic 	Ajax 	28000000	6000	
+222535	L. Orejuela 	21	Colombia 	Ajax 	24000000	6000	
+227557	M. Cassierra 	20	Colombia 	Ajax 	17000000	7000	
+228687	K. Dolberg 	19	Denmark 	Ajax 	165000000	10000	
+231838	M. W ber 	19	Austria 	Ajax 	12000000	4000	
+236632	David Neres 	20	Brazil 	Ajax 	85000000	11000	
+237502	D. Johnsen 	19	Norway 	Ajax 	17000000	5000	
 
 -- Opdracht 6 
 127.0.0.1/mod-mysql-basic-fifa2018/players/		http://localhost/phpmyadmin/db_sql.php?db=mod-mysql-basic-fifa2018
